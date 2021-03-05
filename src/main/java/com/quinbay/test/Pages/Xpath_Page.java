@@ -34,7 +34,7 @@ public class Xpath_Page {
     WebElement click_Success_Dipesan;
     @FindBy(xpath = "(//span[@class='order-list__details__status completed'])[1]")
     WebElement first_Success_Selesai;
-    @FindBy(xpath = "(//div[@class='order-list__details']/span)[1]")
+    @FindBy(xpath = "//span[@class='order-list__details__status cancelled']")
     WebElement first_failure_dipatakan;
 //    @FindBy(xpath = "(//i[@class='ticker__icon'])[1]")
 //    WebElement error;
@@ -97,16 +97,19 @@ public class Xpath_Page {
     }
     public void Check_Dibatalkan_failure_tag()
     {
+        click_Failure_Dibatalkan.click();
         String text=first_failure_dipatakan.getText();
         String original="Dibatalkan";
         Assert.assertEquals(text,original);
     }
     public void Check_the_header()
     {
+        order_detail.click();
         Assert.assertTrue(header.isDisplayed());
     }
     public void Check_image()
     {
+        click_Failure_Dibatalkan.click();
         Assert.assertTrue("The image is displayed", image_verify.isDisplayed());
     }
     public void Go_to_OrderPage(){

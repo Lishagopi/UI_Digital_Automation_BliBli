@@ -11,33 +11,33 @@
         "steps": [
           {
             "result": {
-              "duration": 4065888000,
+              "duration": 3672828000,
               "status": "passed"
             },
             "line": 7,
-            "name": "User on BliBli page",
+            "name": "User already on BliBli page",
             "match": {
-              "location": "com.quinbay.Steps.MyStepdefs.user_on_bli_bli_page()"
+              "location": "com.quinbay.Steps.StepsDefinition.user_on_bli_bli_page()"
             },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2021-03-04T10:00:47.943Z",
-        "line": 10,
-        "name": "Verify user able to login the page",
+        "start_timestamp": "2021-03-05T09:38:09.029Z",
+        "line": 11,
+        "name": "Verify whether user able to login the page",
         "description": "",
-        "id": "login;verify-user-able-to-login-the-page",
+        "id": "login;verify-whether-user-able-to-login-the-page",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 17362000,
+              "duration": 238090000,
               "status": "passed"
             },
-            "line": 11,
+            "line": 12,
             "name": "User enters username as \"arpitha.riya@mailinator.com\"",
             "match": {
               "arguments": [
@@ -46,16 +46,16 @@
                   "offset": 24
                 }
               ],
-              "location": "com.quinbay.Steps.MyStepdefs.user_enters_username_as(java.lang.String)"
+              "location": "com.quinbay.Steps.StepsDefinition.user_enters_username_as(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 309251000,
+              "duration": 98168000,
               "status": "passed"
             },
-            "line": 12,
+            "line": 13,
             "name": "User enter password as \"Blibli@123456\"",
             "match": {
               "arguments": [
@@ -64,31 +64,31 @@
                   "offset": 23
                 }
               ],
-              "location": "com.quinbay.Steps.MyStepdefs.user_enter_password_as(java.lang.String)"
+              "location": "com.quinbay.Steps.StepsDefinition.user_enter_password_as(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 850656000,
+              "duration": 454079000,
               "status": "passed"
             },
-            "line": 13,
-            "name": "User verify the email",
+            "line": 14,
+            "name": "verify the email",
             "match": {
-              "location": "com.quinbay.Steps.MyStepdefs.user_verify_the_email()"
+              "location": "com.quinbay.Steps.StepsDefinition.user_verify_the_email()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 223000,
+              "duration": 372824000,
               "status": "passed"
             },
-            "line": 14,
-            "name": "User enter in the login page",
+            "line": 15,
+            "name": "verify the otp",
             "match": {
-              "location": "com.quinbay.Steps.MyStepdefs.user_enter_in_the_login_page()"
+              "location": "com.quinbay.Steps.StepsDefinition.user_enter_in_the_login_page()"
             },
             "keyword": "Then "
           }
@@ -111,62 +111,98 @@
         "steps": [
           {
             "result": {
-              "duration": 3908901000,
+              "duration": 3797568000,
               "status": "passed"
             },
             "line": 7,
-            "name": "User on BliBli page",
+            "name": "User already on BliBli page",
             "match": {
-              "location": "com.quinbay.Steps.MyStepdefs.user_on_bli_bli_page()"
+              "location": "com.quinbay.Steps.StepsDefinition.user_on_bli_bli_page()"
             },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2021-03-04T10:00:53.248Z",
-        "line": 17,
-        "name": "Verify tag in Orderdetailpage",
+        "start_timestamp": "2021-03-05T09:38:13.956Z",
+        "line": 19,
+        "name": "Verify the Tags and Box in Order_Detail_Page",
         "description": "",
-        "id": "login;verify-tag-in-orderdetailpage",
+        "id": "login;verify-the-tags-and-box-in-order-detail-page",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 902000,
+              "duration": 252283000,
               "status": "passed"
             },
-            "line": 18,
-            "name": "User enters in the Orderdetailpage",
+            "line": 20,
+            "name": "User enters username as \"arpitha.riya@mailinator.com\"",
             "match": {
-              "location": "com.quinbay.Steps.MyStepdefs.user_enters_in_the_orderdetailpage()"
+              "arguments": [
+                {
+                  "val": "\"arpitha.riya@mailinator.com\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.quinbay.Steps.StepsDefinition.user_enters_username_as(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1083000,
+              "duration": 95853000,
               "status": "passed"
             },
-            "line": 19,
-            "name": "User clicks Dibatalkan tag",
+            "line": 21,
+            "name": "User enter password as \"Blibli@123456\"",
             "match": {
-              "location": "com.quinbay.Steps.MyStepdefs.user_clicks_dibatalkan_tag()"
+              "arguments": [
+                {
+                  "val": "\"Blibli@123456\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.quinbay.Steps.StepsDefinition.user_enter_password_as(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 454000,
+              "duration": 373210000,
               "status": "passed"
             },
-            "line": 20,
-            "name": "the first product is same as Dibatalkan tag",
+            "line": 22,
+            "name": "verify the email",
             "match": {
-              "location": "com.quinbay.Steps.MyStepdefs.the_first_product_is_same_as_dibatalkan_tag()"
+              "location": "com.quinbay.Steps.StepsDefinition.user_verify_the_email()"
             },
             "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 462278000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "verify the otp",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.user_enter_in_the_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1621074000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Check for the search box",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.checkForTheSearchBox()"
+            },
+            "keyword": "And "
           }
         ],
         "tags": [
@@ -175,6 +211,1334 @@
           },
           {
             "name": "@Test2"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "      User navigate to the BliBli tab",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3317684000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User already on BliBli page",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.user_on_bli_bli_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-05T09:38:20.572Z",
+        "line": 28,
+        "name": "Verify the Tags and Box in Order_Detail_Page",
+        "description": "",
+        "id": "login;verify-the-tags-and-box-in-order-detail-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 208366000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User enters username as \"arpitha.riya@mailinator.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"arpitha.riya@mailinator.com\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.quinbay.Steps.StepsDefinition.user_enters_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 95136000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User enter password as \"Blibli@123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Blibli@123456\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.quinbay.Steps.StepsDefinition.user_enter_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 373238000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "verify the email",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.user_verify_the_email()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 581464000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "verify the otp",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.user_enter_in_the_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1630810000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Check for the search box",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.checkForTheSearchBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 100637000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Verify the Dipesan tag",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.verifyTheDipesanTag()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginFeature"
+          },
+          {
+            "name": "@Test3"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "      User navigate to the BliBli tab",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3431585000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User already on BliBli page",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.user_on_bli_bli_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-05T09:38:26.892Z",
+        "line": 37,
+        "name": "Verify the Tags and Box in Order_Detail_Page",
+        "description": "",
+        "id": "login;verify-the-tags-and-box-in-order-detail-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 199982000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User enters username as \"arpitha.riya@mailinator.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"arpitha.riya@mailinator.com\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.quinbay.Steps.StepsDefinition.user_enters_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 177955000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User enter password as \"Blibli@123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Blibli@123456\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.quinbay.Steps.StepsDefinition.user_enter_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 317224000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "verify the email",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.user_verify_the_email()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 510022000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "verify the otp",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.user_enter_in_the_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1976841000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Check for the search box",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.checkForTheSearchBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 140427000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Verify the Dipesan tag",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.verifyTheDipesanTag()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 154654000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Verify First Success tag_Selesai",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.verifyFirstSuccessTag_Selesai()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginFeature"
+          },
+          {
+            "name": "@Test4"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "      User navigate to the BliBli tab",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3355147000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User already on BliBli page",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.user_on_bli_bli_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-05T09:38:33.808Z",
+        "line": 47,
+        "name": "Verify the Tags and Box in Order_Detail_Page",
+        "description": "",
+        "id": "login;verify-the-tags-and-box-in-order-detail-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 377720000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "User enters username as \"arpitha.riya@mailinator.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"arpitha.riya@mailinator.com\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.quinbay.Steps.StepsDefinition.user_enters_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 117085000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "User enter password as \"Blibli@123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Blibli@123456\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.quinbay.Steps.StepsDefinition.user_enter_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 442111000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "verify the email",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.user_verify_the_email()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 506008000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "verify the otp",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.user_enter_in_the_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1512984000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "Check for the search box",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.checkForTheSearchBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 107287000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Verify the Dipesan tag",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.verifyTheDipesanTag()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 140712000,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "Verify First Success tag_Selesai",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.verifyFirstSuccessTag_Selesai()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 168259000,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "Verify the Dibatalkan tag",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.verifyTheDibatalkanTag()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginFeature"
+          },
+          {
+            "name": "@Test5"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "      User navigate to the BliBli tab",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3267195000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User already on BliBli page",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.user_on_bli_bli_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-05T09:38:40.543Z",
+        "line": 58,
+        "name": "Verify the Tags and Box in Order_Detail_Page",
+        "description": "",
+        "id": "login;verify-the-tags-and-box-in-order-detail-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 324769000,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "User enters username as \"arpitha.riya@mailinator.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"arpitha.riya@mailinator.com\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.quinbay.Steps.StepsDefinition.user_enters_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 110017000,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "User enter password as \"Blibli@123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Blibli@123456\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.quinbay.Steps.StepsDefinition.user_enter_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 407007000,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "verify the email",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.user_verify_the_email()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 462777000,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "verify the otp",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.user_enter_in_the_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1611526000,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "Check for the search box",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.checkForTheSearchBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 114392000,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "Verify the Dipesan tag",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.verifyTheDipesanTag()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 144659000,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "Verify First Success tag_Selesai",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.verifyFirstSuccessTag_Selesai()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 163131000,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "Verify the Dibatalkan tag",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.verifyTheDibatalkanTag()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 125574000,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "Verify First failure tag_Dibatalkan",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.verifyFirstFailureTag_Dibatalkan()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginFeature"
+          },
+          {
+            "name": "@Test6"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "      User navigate to the BliBli tab",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2998064000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User already on BliBli page",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.user_on_bli_bli_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-05T09:38:47.282Z",
+        "line": 70,
+        "name": "Verify the Tags and Box in Order_Detail_Page",
+        "description": "",
+        "id": "login;verify-the-tags-and-box-in-order-detail-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 255617000,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "User enters username as \"arpitha.riya@mailinator.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"arpitha.riya@mailinator.com\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.quinbay.Steps.StepsDefinition.user_enters_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 161696000,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "User enter password as \"Blibli@123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Blibli@123456\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.quinbay.Steps.StepsDefinition.user_enter_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 371893000,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "verify the email",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.user_verify_the_email()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 489664000,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "verify the otp",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.user_enter_in_the_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1550749000,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "Check for the search box",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.checkForTheSearchBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 114163000,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "Verify the Dipesan tag",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.verifyTheDipesanTag()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 136157000,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "Verify First Success tag_Selesai",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.verifyFirstSuccessTag_Selesai()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 158445000,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "Verify the Dibatalkan tag",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.verifyTheDibatalkanTag()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 114722000,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "Verify First failure tag_Dibatalkan",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.verifyFirstFailureTag_Dibatalkan()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40644000,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "Check for the image",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.checkForTheImage()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginFeature"
+          },
+          {
+            "name": "@Test7"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "      User navigate to the BliBli tab",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3140243000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User already on BliBli page",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.user_on_bli_bli_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-05T09:38:53.684Z",
+        "line": 83,
+        "name": "Verify the Tags and Box in Order_Detail_Page",
+        "description": "",
+        "id": "login;verify-the-tags-and-box-in-order-detail-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 312755000,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "User enters username as \"arpitha.riya@mailinator.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"arpitha.riya@mailinator.com\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.quinbay.Steps.StepsDefinition.user_enters_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 108949000,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "User enter password as \"Blibli@123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Blibli@123456\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.quinbay.Steps.StepsDefinition.user_enter_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 422655000,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "verify the email",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.user_verify_the_email()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 456201000,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "verify the otp",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.user_enter_in_the_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1575350000,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "Check for the search box",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.checkForTheSearchBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 89747000,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "Verify the Dipesan tag",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.verifyTheDipesanTag()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 139719000,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "Verify First Success tag_Selesai",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.verifyFirstSuccessTag_Selesai()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 152674000,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "Verify the Dibatalkan tag",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.verifyTheDibatalkanTag()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 119388000,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "Verify First failure tag_Dibatalkan",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.verifyFirstFailureTag_Dibatalkan()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29230000,
+              "status": "passed"
+            },
+            "line": 93,
+            "name": "Check for the image",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.checkForTheImage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 371324000,
+              "status": "passed"
+            },
+            "line": 94,
+            "name": "Go to oderPage",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.goToOderPage()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginFeature"
+          },
+          {
+            "name": "@Test8"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "      User navigate to the BliBli tab",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3529827000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User already on BliBli page",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.user_on_bli_bli_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-05T09:39:00.610Z",
+        "line": 97,
+        "name": "Verify the Tags and Box in Order_Detail_Page",
+        "description": "",
+        "id": "login;verify-the-tags-and-box-in-order-detail-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 205392000,
+              "status": "passed"
+            },
+            "line": 98,
+            "name": "User enters username as \"arpitha.riya@mailinator.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"arpitha.riya@mailinator.com\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.quinbay.Steps.StepsDefinition.user_enters_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 89175000,
+              "status": "passed"
+            },
+            "line": 99,
+            "name": "User enter password as \"Blibli@123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Blibli@123456\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.quinbay.Steps.StepsDefinition.user_enter_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 343468000,
+              "status": "passed"
+            },
+            "line": 100,
+            "name": "verify the email",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.user_verify_the_email()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 424695000,
+              "status": "passed"
+            },
+            "line": 101,
+            "name": "verify the otp",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.user_enter_in_the_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1624370000,
+              "status": "passed"
+            },
+            "line": 102,
+            "name": "Check for the search box",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.checkForTheSearchBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93865000,
+              "status": "passed"
+            },
+            "line": 103,
+            "name": "Verify the Dipesan tag",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.verifyTheDipesanTag()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 136283000,
+              "status": "passed"
+            },
+            "line": 104,
+            "name": "Verify First Success tag_Selesai",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.verifyFirstSuccessTag_Selesai()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 150709000,
+              "status": "passed"
+            },
+            "line": 105,
+            "name": "Verify the Dibatalkan tag",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.verifyTheDibatalkanTag()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 110993000,
+              "status": "passed"
+            },
+            "line": 106,
+            "name": "Verify First failure tag_Dibatalkan",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.verifyFirstFailureTag_Dibatalkan()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31575000,
+              "status": "passed"
+            },
+            "line": 107,
+            "name": "Check for the image",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.checkForTheImage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 377998000,
+              "status": "passed"
+            },
+            "line": 108,
+            "name": "Go to oderPage",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.goToOderPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24026000,
+              "status": "passed"
+            },
+            "line": 109,
+            "name": "Verify the header",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.verifyTheHeader()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginFeature"
+          },
+          {
+            "name": "@Test9"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "      User navigate to the BliBli tab",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3813788000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User already on BliBli page",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.user_on_bli_bli_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-05T09:39:07.760Z",
+        "line": 112,
+        "name": "Verify the Tags and Box in Order_Detail_Page",
+        "description": "",
+        "id": "login;verify-the-tags-and-box-in-order-detail-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 204972000,
+              "status": "passed"
+            },
+            "line": 113,
+            "name": "User enters username as \"arpitha.riya@mailinator.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"arpitha.riya@mailinator.com\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.quinbay.Steps.StepsDefinition.user_enters_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 83996000,
+              "status": "passed"
+            },
+            "line": 114,
+            "name": "User enter password as \"Blibli@123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Blibli@123456\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.quinbay.Steps.StepsDefinition.user_enter_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 355191000,
+              "status": "passed"
+            },
+            "line": 115,
+            "name": "verify the email",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.user_verify_the_email()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 465887000,
+              "status": "passed"
+            },
+            "line": 116,
+            "name": "verify the otp",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.user_enter_in_the_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1430743000,
+              "status": "passed"
+            },
+            "line": 117,
+            "name": "Check for the search box",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.checkForTheSearchBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 112577000,
+              "status": "passed"
+            },
+            "line": 118,
+            "name": "Verify the Dipesan tag",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.verifyTheDipesanTag()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 223729000,
+              "status": "passed"
+            },
+            "line": 119,
+            "name": "Verify First Success tag_Selesai",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.verifyFirstSuccessTag_Selesai()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 132409000,
+              "status": "passed"
+            },
+            "line": 120,
+            "name": "Verify the Dibatalkan tag",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.verifyTheDibatalkanTag()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90885000,
+              "status": "passed"
+            },
+            "line": 121,
+            "name": "Verify First failure tag_Dibatalkan",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.verifyFirstFailureTag_Dibatalkan()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37312000,
+              "status": "passed"
+            },
+            "line": 122,
+            "name": "Check for the image",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.checkForTheImage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 379361000,
+              "status": "passed"
+            },
+            "line": 123,
+            "name": "Go to oderPage",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.goToOderPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48551000,
+              "status": "passed"
+            },
+            "line": 124,
+            "name": "Verify the header",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.verifyTheHeader()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30045776000,
+              "status": "passed"
+            },
+            "line": 125,
+            "name": "Check for the report",
+            "match": {
+              "location": "com.quinbay.Steps.StepsDefinition.checkForTheReport()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginFeature"
+          },
+          {
+            "name": "@Test10"
           }
         ]
       }
