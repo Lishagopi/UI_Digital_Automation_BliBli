@@ -1,0 +1,39 @@
+-------------------------------------------------------------------------------
+Test set: com.quinbay.CucumberRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.972 s <<< FAILURE! - in com.quinbay.CucumberRunner
+Verify user able to login the page(Login)  Time elapsed: 0.253 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "User on BliBli page" is undefined. You can implement it using the snippet(s) below:
+
+@Given("User on BliBli page")
+public void user_on_bli_bli_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("User enters username as {string}")
+public void user_enters_username_as(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User enter password as {string}")
+public void user_enter_password_as(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User verify the email")
+public void user_verify_the_email() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User enter in the login page")
+public void user_enter_in_the_login_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
