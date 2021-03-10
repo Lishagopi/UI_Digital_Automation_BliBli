@@ -9,16 +9,17 @@ import java.util.concurrent.TimeUnit;
 
 public class Driverclass {
 
-    public  WebDriver setupDriver(){
-        System.setProperty("webdriver.chrome.driver","src/main/resources/Driver/chromedriver");
+    /*public  WebDriver setupDriver() {
+       System.setProperty("webdriver.chrome.driver", "src/main/resources/Driver/chromedriver");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("incognito");
         DesiredCapabilities cap = DesiredCapabilities.chrome();
         cap.setCapability(ChromeOptions.CAPABILITY, options);
-        WebDriver driver=new ChromeDriver(cap);
+        WebDriver driver = new ChromeDriver(cap);
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.get("https://wwwuata.gdn-app.com/member/order/digital/completed");
         return driver;
-    }
+*/
+//}
 }

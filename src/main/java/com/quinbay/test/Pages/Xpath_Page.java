@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 //import sun.jvm.hotspot.utilities.Assert;
 import static org.junit.Assert.assertEquals;
-
+import java.sql.Driver;
 //import static sun.jvm.hotspot.utilities.Assert.*;
 
 public class Xpath_Page {
@@ -50,7 +50,6 @@ public class Xpath_Page {
     WebElement report;
     @FindBy(xpath = "(//p[@class='order-detail__transaction-details-value'])[1]")
     WebElement user_id;
-
     public void Login()
     {
         Login_usr.sendKeys("arpitha.riya@mailinator.com");
@@ -118,6 +117,7 @@ public class Xpath_Page {
             order_detail.click();
             Assert.assertTrue("The id is available", user_id.isDisplayed());
             System.out.println("Order detail page");
+
         }
         catch (Exception e){
             System.out.println("Not in the order details");
@@ -137,5 +137,9 @@ public class Xpath_Page {
         System.out.println("Search Box is present");
         Assert.assertTrue("The search box is present",search_box.isDisplayed());
     }
+
+
+
+
 
 }

@@ -22,6 +22,7 @@ public class StepsDefinition {
 
     Xpath_Page obj;
     String user;
+    //Driverclass obj;
 
     @Given("User already on BliBli page")
     public void user_on_bli_bli_page() {
@@ -30,13 +31,12 @@ public class StepsDefinition {
         options.addArguments("incognito");
         DesiredCapabilities cap = DesiredCapabilities.chrome();
         cap.setCapability(ChromeOptions.CAPABILITY, options);
-        WebDriver driver=new ChromeDriver(cap);
+        driver=new ChromeDriver(cap);
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.get("https://wwwuata.gdn-app.com/member/order/digital/completed");
         obj=PageFactory.initElements(driver, Xpath_Page.class);
-        Driverclass obj=new Driverclass();
-
+       // obj=new Driverclass();
     }
 
     @When("User enters username as {string}")
@@ -110,7 +110,16 @@ public class StepsDefinition {
     public void checkForTheSearchBox() {
         obj.Check_for_the_searchBox();
     }
-}
+
+    @And("close driver")
+    public void close_driver()
+    {
+        driver.close();
+        driver.quit();
+    }
+
+    }
+
 
 
 
